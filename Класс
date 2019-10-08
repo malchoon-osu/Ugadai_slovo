@@ -1,0 +1,16 @@
+class Treu
+def S(a,h)
+b=a*h/2
+return b
+end
+end
+uy = Treu.new
+puts uy.S(gets.to_i,gets.to_i)
+class Ugl < Treu
+def S(a,h,c)
+u=(a**2+h**2-c**2)/(c*h*2)
+return u
+end
+end
+yu = Ugl.new
+puts yu.S(gets.to_i,gets.to_i,gets.to_i)
